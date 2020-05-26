@@ -1,0 +1,20 @@
+{
+  "name": "last-iterations-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "ioredis": "^4.17.1",
+    "lzo": "^0.4.11",
+    "node-gzip": "^1.1.2",
+    "redis": "^3.0.2",
+    "snappy": "^6.3.4"
+  }
+}

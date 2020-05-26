@@ -1,0 +1,41 @@
+Estratégia de Armazenamento   Estratégia de Compressão    Volume de dados     Uso de Memória
+---------------------------------------------------------------------------------------------
+SortedSet + Hash (3 props)    Nenhuma                     50,000              38.74Mi + 37.55Mi + 37.59Mi
+SortedSet + Hash (3 props)    Nenhuma                     500,000             359.7Mi + 359.5Mi + 359Mi
+SortedSet + Hash (3 props)    Nenhuma                     5,000,000           2Gi+
+
+SortedSet (3 props)           Nenhuma                     50,000              36.57Mi
+SortedSet (3 props)           Nenhuma                     500,000             345.6Mi
+SortedSet (3 props)           Nenhuma                     5,000,000           ?
+
+SortedSet (7 props)           Nenhuma                     50,000              43.77Mi
+SortedSet (7 props)           Nenhuma                     500,000             413.9Mi
+SortedSet (7 props)           Nenhuma                     5,000,000           ?
+
+Gzip (Full)                   Nenhuma                     50,000              55.90Mi
+Gzip (Full)                   Nenhuma                     500,000             536.6Mi
+Gzip (Full)                   Nenhuma                     5,000,000           ?
+
+Gzip (3 props)                Nenhuma                     50,000              38.93Mi
+Gzip (3 props)                Nenhuma                     500,000             368.9Mi
+Gzip (3 props)                Nenhuma                     5,000,000           ?
+
+Gzip (7 props)                Nenhuma                     50,000              45.86Mi
+Gzip (7 props)                Nenhuma                     500,000             443.5Mi
+Gzip (7 props)                Nenhuma                     5,000,000           ?
+
+Snappy (3 props)              Nenhuma                     50,000              39.08Mi
+Snappy (3 props)              Nenhuma                     500,000             368.7Mi
+Snappy (3 props)              Nenhuma                     5,000,000           ?
+
+Snappy (7 props)              Nenhuma                     50,000              49.55Mi
+Snappy (7 props)              Nenhuma                     500,000             468Mi
+Snappy (7 props)              Nenhuma                     5,000,000           ?
+
+LZO (3 props)                 Nenhuma                     50,000              38.67Mi
+LZO (3 props)                 Nenhuma                     500,000             369.3Mi
+LZO (3 props)                 Nenhuma                     5,000,000           ?
+
+LZO (7 props)                 Nenhuma                     50,000              49.48Mi
+LZO (7 props)                 Nenhuma                     500,000             472.5Mi
+LZO (7 props)                 Nenhuma                     5,000,000           ?
